@@ -79,8 +79,8 @@ function checkIt(){
     } 
 
     if (correct == 5){
-        document.getElementById("points").innerText = "All answers are correct!";
+        document.getElementById("points").innerText = "you have " + correct + " points";
     } else {
-        document.getElementById("points").innerText = "Try again";
+        document.getElementById("points").innerText = "you have " + correct + " points";
      }
 }
